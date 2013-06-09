@@ -16,6 +16,7 @@
 		22C749D31764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnits.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C749CA1764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnits.m */; };
 		22C749D41764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnitsApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C749CC1764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnitsApp.m */; };
 		22C749D51764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnitsIap.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C749CE1764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnitsIap.m */; };
+		22C749D81764DFAB002DBA6C /* SJOAppAnnieAppDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C749D71764DFAB002DBA6C /* SJOAppAnnieAppDetail.m */; };
 		22FE2BA81764B0EE00AD6F14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FE2BA71764B0EE00AD6F14 /* UIKit.framework */; };
 		22FE2BAA1764B0EE00AD6F14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FE2BA91764B0EE00AD6F14 /* Foundation.framework */; };
 		22FE2BAC1764B0EE00AD6F14 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FE2BAB1764B0EE00AD6F14 /* CoreGraphics.framework */; };
@@ -50,6 +51,8 @@
 		22C749CC1764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnitsApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SJOAppAnnieAccountSalesUnitsApp.m; path = Library/SJOAppAnnieAccountSalesUnitsApp.m; sourceTree = "<group>"; };
 		22C749CD1764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnitsIap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SJOAppAnnieAccountSalesUnitsIap.h; path = Library/SJOAppAnnieAccountSalesUnitsIap.h; sourceTree = "<group>"; };
 		22C749CE1764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnitsIap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SJOAppAnnieAccountSalesUnitsIap.m; path = Library/SJOAppAnnieAccountSalesUnitsIap.m; sourceTree = "<group>"; };
+		22C749D61764DFAB002DBA6C /* SJOAppAnnieAppDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SJOAppAnnieAppDetail.h; path = Library/SJOAppAnnieAppDetail.h; sourceTree = "<group>"; };
+		22C749D71764DFAB002DBA6C /* SJOAppAnnieAppDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SJOAppAnnieAppDetail.m; path = Library/SJOAppAnnieAppDetail.m; sourceTree = "<group>"; };
 		22FE2BA41764B0EE00AD6F14 /* AppAnnieApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppAnnieApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FE2BA71764B0EE00AD6F14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		22FE2BA91764B0EE00AD6F14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -90,6 +93,8 @@
 			children = (
 				22C749B31764B17C002DBA6C /* SJOAppAnnieApiClient.h */,
 				22C749B41764B17C002DBA6C /* SJOAppAnnieApiClient.m */,
+				22C749D61764DFAB002DBA6C /* SJOAppAnnieAppDetail.h */,
+				22C749D71764DFAB002DBA6C /* SJOAppAnnieAppDetail.m */,
 				22C749BB1764B45D002DBA6C /* SJOAppAnnieAccount.h */,
 				22C749BC1764B45D002DBA6C /* SJOAppAnnieAccount.m */,
 				22C749C11764D0B6002DBA6C /* SJOAppAnnieAccountSales.h */,
@@ -277,6 +282,7 @@
 				22C749D31764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnits.m in Sources */,
 				22C749D41764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnitsApp.m in Sources */,
 				22C749D51764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnitsIap.m in Sources */,
+				22C749D81764DFAB002DBA6C /* SJOAppAnnieAppDetail.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
