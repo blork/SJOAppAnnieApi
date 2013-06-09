@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "SJOAppAnnieAccount.h"
+#import "SJOAppAnnieApiClient.h"
+#import "Credentials.h"
 
 @implementation AppDelegate
 
@@ -20,6 +23,16 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    [[SJOAppAnnieApiClient sharedClient] setUsername:API_USERNAME andPassword:API_PASSWORD];
+    [SJOAppAnnieAccount accounts:@(0) block:^(NSArray *accounts, NSNumber *nextPageIndex, NSError *error) {
+        for (SJOAppAnnieAccount* account in accounts) {
+            NSLog(@"%@", account);
+        }
+        
+        NSLog(@"Next page: %@", nextPageIndex);
+    }];
+    
     return YES;
 }
 
