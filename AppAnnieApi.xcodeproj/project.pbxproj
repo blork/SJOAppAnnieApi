@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		22C749B51764B17C002DBA6C /* SJOAppAnnieApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C749B41764B17C002DBA6C /* SJOAppAnnieApiClient.m */; };
 		22C749BD1764B45D002DBA6C /* SJOAppAnnieAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C749BC1764B45D002DBA6C /* SJOAppAnnieAccount.m */; };
+		22C749CF1764D0B6002DBA6C /* SJOAppAnnieAccountSales.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C749C21764D0B6002DBA6C /* SJOAppAnnieAccountSales.m */; };
+		22C749D01764D0B6002DBA6C /* SJOAppAnnieAccountSalesRevenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C749C41764D0B6002DBA6C /* SJOAppAnnieAccountSalesRevenue.m */; };
+		22C749D11764D0B6002DBA6C /* SJOAppAnnieAccountSalesRevenueApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C749C61764D0B6002DBA6C /* SJOAppAnnieAccountSalesRevenueApp.m */; };
+		22C749D21764D0B6002DBA6C /* SJOAppAnnieAccountSalesRevenueIap.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C749C81764D0B6002DBA6C /* SJOAppAnnieAccountSalesRevenueIap.m */; };
+		22C749D31764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnits.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C749CA1764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnits.m */; };
+		22C749D41764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnitsApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C749CC1764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnitsApp.m */; };
+		22C749D51764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnitsIap.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C749CE1764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnitsIap.m */; };
 		22FE2BA81764B0EE00AD6F14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FE2BA71764B0EE00AD6F14 /* UIKit.framework */; };
 		22FE2BAA1764B0EE00AD6F14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FE2BA91764B0EE00AD6F14 /* Foundation.framework */; };
 		22FE2BAC1764B0EE00AD6F14 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FE2BAB1764B0EE00AD6F14 /* CoreGraphics.framework */; };
@@ -29,6 +36,20 @@
 		22C749BB1764B45D002DBA6C /* SJOAppAnnieAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SJOAppAnnieAccount.h; path = Library/SJOAppAnnieAccount.h; sourceTree = "<group>"; };
 		22C749BC1764B45D002DBA6C /* SJOAppAnnieAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SJOAppAnnieAccount.m; path = Library/SJOAppAnnieAccount.m; sourceTree = "<group>"; };
 		22C749BE1764C742002DBA6C /* Credentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Credentials.h; sourceTree = "<group>"; };
+		22C749C11764D0B6002DBA6C /* SJOAppAnnieAccountSales.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SJOAppAnnieAccountSales.h; path = Library/SJOAppAnnieAccountSales.h; sourceTree = "<group>"; };
+		22C749C21764D0B6002DBA6C /* SJOAppAnnieAccountSales.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SJOAppAnnieAccountSales.m; path = Library/SJOAppAnnieAccountSales.m; sourceTree = "<group>"; };
+		22C749C31764D0B6002DBA6C /* SJOAppAnnieAccountSalesRevenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SJOAppAnnieAccountSalesRevenue.h; path = Library/SJOAppAnnieAccountSalesRevenue.h; sourceTree = "<group>"; };
+		22C749C41764D0B6002DBA6C /* SJOAppAnnieAccountSalesRevenue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SJOAppAnnieAccountSalesRevenue.m; path = Library/SJOAppAnnieAccountSalesRevenue.m; sourceTree = "<group>"; };
+		22C749C51764D0B6002DBA6C /* SJOAppAnnieAccountSalesRevenueApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SJOAppAnnieAccountSalesRevenueApp.h; path = Library/SJOAppAnnieAccountSalesRevenueApp.h; sourceTree = "<group>"; };
+		22C749C61764D0B6002DBA6C /* SJOAppAnnieAccountSalesRevenueApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SJOAppAnnieAccountSalesRevenueApp.m; path = Library/SJOAppAnnieAccountSalesRevenueApp.m; sourceTree = "<group>"; };
+		22C749C71764D0B6002DBA6C /* SJOAppAnnieAccountSalesRevenueIap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SJOAppAnnieAccountSalesRevenueIap.h; path = Library/SJOAppAnnieAccountSalesRevenueIap.h; sourceTree = "<group>"; };
+		22C749C81764D0B6002DBA6C /* SJOAppAnnieAccountSalesRevenueIap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SJOAppAnnieAccountSalesRevenueIap.m; path = Library/SJOAppAnnieAccountSalesRevenueIap.m; sourceTree = "<group>"; };
+		22C749C91764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SJOAppAnnieAccountSalesUnits.h; path = Library/SJOAppAnnieAccountSalesUnits.h; sourceTree = "<group>"; };
+		22C749CA1764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SJOAppAnnieAccountSalesUnits.m; path = Library/SJOAppAnnieAccountSalesUnits.m; sourceTree = "<group>"; };
+		22C749CB1764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnitsApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SJOAppAnnieAccountSalesUnitsApp.h; path = Library/SJOAppAnnieAccountSalesUnitsApp.h; sourceTree = "<group>"; };
+		22C749CC1764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnitsApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SJOAppAnnieAccountSalesUnitsApp.m; path = Library/SJOAppAnnieAccountSalesUnitsApp.m; sourceTree = "<group>"; };
+		22C749CD1764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnitsIap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SJOAppAnnieAccountSalesUnitsIap.h; path = Library/SJOAppAnnieAccountSalesUnitsIap.h; sourceTree = "<group>"; };
+		22C749CE1764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnitsIap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SJOAppAnnieAccountSalesUnitsIap.m; path = Library/SJOAppAnnieAccountSalesUnitsIap.m; sourceTree = "<group>"; };
 		22FE2BA41764B0EE00AD6F14 /* AppAnnieApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppAnnieApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FE2BA71764B0EE00AD6F14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		22FE2BA91764B0EE00AD6F14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -71,6 +92,20 @@
 				22C749B41764B17C002DBA6C /* SJOAppAnnieApiClient.m */,
 				22C749BB1764B45D002DBA6C /* SJOAppAnnieAccount.h */,
 				22C749BC1764B45D002DBA6C /* SJOAppAnnieAccount.m */,
+				22C749C11764D0B6002DBA6C /* SJOAppAnnieAccountSales.h */,
+				22C749C21764D0B6002DBA6C /* SJOAppAnnieAccountSales.m */,
+				22C749C31764D0B6002DBA6C /* SJOAppAnnieAccountSalesRevenue.h */,
+				22C749C41764D0B6002DBA6C /* SJOAppAnnieAccountSalesRevenue.m */,
+				22C749C51764D0B6002DBA6C /* SJOAppAnnieAccountSalesRevenueApp.h */,
+				22C749C61764D0B6002DBA6C /* SJOAppAnnieAccountSalesRevenueApp.m */,
+				22C749C71764D0B6002DBA6C /* SJOAppAnnieAccountSalesRevenueIap.h */,
+				22C749C81764D0B6002DBA6C /* SJOAppAnnieAccountSalesRevenueIap.m */,
+				22C749C91764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnits.h */,
+				22C749CA1764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnits.m */,
+				22C749CB1764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnitsApp.h */,
+				22C749CC1764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnitsApp.m */,
+				22C749CD1764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnitsIap.h */,
+				22C749CE1764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnitsIap.m */,
 			);
 			name = Library;
 			sourceTree = "<group>";
@@ -235,6 +270,13 @@
 				22FE2BC31764B0EE00AD6F14 /* AppAnnieApi.xcdatamodeld in Sources */,
 				22C749B51764B17C002DBA6C /* SJOAppAnnieApiClient.m in Sources */,
 				22C749BD1764B45D002DBA6C /* SJOAppAnnieAccount.m in Sources */,
+				22C749CF1764D0B6002DBA6C /* SJOAppAnnieAccountSales.m in Sources */,
+				22C749D01764D0B6002DBA6C /* SJOAppAnnieAccountSalesRevenue.m in Sources */,
+				22C749D11764D0B6002DBA6C /* SJOAppAnnieAccountSalesRevenueApp.m in Sources */,
+				22C749D21764D0B6002DBA6C /* SJOAppAnnieAccountSalesRevenueIap.m in Sources */,
+				22C749D31764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnits.m in Sources */,
+				22C749D41764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnitsApp.m in Sources */,
+				22C749D51764D0B6002DBA6C /* SJOAppAnnieAccountSalesUnitsIap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

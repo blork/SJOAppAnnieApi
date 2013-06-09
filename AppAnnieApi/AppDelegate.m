@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "SJOAppAnnieAccount.h"
+#import "SJOAppAnnieAccountSales.h"
+
 #import "SJOAppAnnieApiClient.h"
 #import "Credentials.h"
 
@@ -20,7 +22,6 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
@@ -28,9 +29,20 @@
     [SJOAppAnnieAccount accounts:@(0) block:^(NSArray *accounts, NSNumber *nextPageIndex, NSError *error) {
         for (SJOAppAnnieAccount* account in accounts) {
             NSLog(@"%@", account);
+            
+            [SJOAppAnnieAccountSales salesForAccount: account.accountId
+                                           breakdown: SJOAppAnnieBreakdownApp
+                                           startDate: nil
+                                             endDate: nil
+                                            currency: nil
+                                           countries: nil
+                                           pageIndex: nil
+                                               block:^(NSArray *sales, NSError *error) {
+                                                   for (SJOAppAnnieAccountSales* sale in sales) {
+                                                       NSLog(@"%@", sale);
+                                                   }
+                                               }];
         }
-        
-        NSLog(@"Next page: %@", nextPageIndex);
     }];
     
     return YES;
